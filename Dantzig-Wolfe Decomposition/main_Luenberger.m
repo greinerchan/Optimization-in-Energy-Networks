@@ -1,0 +1,10 @@
+clear;
+A = [1,1,2,0;
+   0,1,1,1;
+   2,1,0,0;
+   1,1,0,0;
+   0,0,1,1;
+   0,0,3,2];
+b = [4;3;4;2;2;5;0]; c= [-1;-2;-4;-3];
+numRowLink = 2; numRowSub1 = 2; borderCol=2;
+lamda = DW(A,c,b,numRowLink,numRowSub1,borderCol);
